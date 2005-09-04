@@ -23,7 +23,7 @@
 /*
  * Copyright (c) 2005 Gunnar Ritter, Freiburg i. Br., Germany
  *
- * Sccsid @(#)troff.h	1.9 (gritter) 8/30/05
+ * Sccsid @(#)troff.h	1.10 (gritter) 9/4/05
  */
 
 extern struct tracktab {
@@ -33,6 +33,7 @@ extern struct tracktab {
 	int	n2;
 } *tracktab;
 
+extern	struct dev	dev;
 extern	int		Nfont;
 extern	struct Font	**fontbase;
 extern	int		*cstab;
